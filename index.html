@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gokilavani-Fullstack Developer</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+
+  <link href="css/main.css" rel="stylesheet">
+
+
+  <link rel="shortcut icon" href="images/logo.png">
+</head>
+<body>
+
+  <div class="top-bar py-2">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a class="btn btn-sm btn-dark git" href="https://github.com/gokilavani-dev" target="_blank">Github</a>
+
+      <ul class="list-unstyled mb-0 d-flex gap-2 social-share">
+        <li><a class="contact-icon" href="https://wa.me/919360219946" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i></a></li>
+        <li><a class="contact-icon" href="https://mail.google.com/mail/?view=cm&fs=1&to=gokilavani2k@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+        <li><a class="contact-icon" href="https://www.linkedin.com/in/gokilavani-dev" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <header id="header">
+    <nav class="navbar navbar-expand-lg navbar-gradient">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+          <img src="images/logo.png" alt="logo" width="56" height="56" loading="lazy">
+          <span class="brand-title">Gokifolio</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#techstack">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="main-slider" class="position-relative">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image:url('images/slider/bg1.jpg')">
+          <div class="container">
+            <div class="row align-items-center" style="min-height:420px;">
+              <div class="col-lg-6 text-white py-5">
+                <h1 class="display-6" data-aos="fade-down" data-aos-delay="0">Hi, I am Gokilavani</h1>
+                <h2 class="h4" data-aos="fade-down" data-aos-delay="200">Full Stack Python Developer</h2>
+                <p class="lead" data-aos="fade-down" data-aos-delay="400">I build responsive and scalable web applications.</p>
+                <a class="btn btn-primary" href="Gokilavani_Resume.pdf" target="_blank" rel="noopener noreferrer" data-aos="fade-down" data-aos-delay="600">Check Resume</a>
+              </div>
+              <div class="col-lg-6 d-none d-lg-block text-end">
+                <img src="images/slider/img1.png" class="img-fluid" alt="" data-aos="fade-up-left" data-aos-delay="800">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- duplicate items if needed -->
+      </div>
+
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button> -->
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-5">
+    <div class="container">
+      <div class="section-header text-center mb-4">
+        <h2>What I Do</h2>
+        <p class="section-desc">I build modern and scalable full-stack web applications with clean code and responsive UI/UX.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="service-box p-4 h-100">
+            <h3>Frontend Development</h3>
+            <p>Creating user-centered interfaces using HTML, CSS, Bootstrap.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service-box p-4 h-100">
+            <h3>Backend Development</h3>
+            <p>Building secure & scalable backend systems using Python & Django/Flask.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service-box p-4 h-100">
+            <h3>Full Stack Integration</h3>
+            <p>Connecting UI, backend & database for production-ready web apps.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="techstack" class="py-5 bg-light">
+    <div class="container">
+      <div class="d-flex gap-4 align-items-start tech-wrapper">
+        <div class="flex-fill tech-col" data-aos="fade-right" data-aos-delay="0">
+          <h4 class="text-center">Full Stack</h4>
+          <p class="text-muted text-center small">Core Development Skills</p>
+          <ul class="list-unstyled tech-list">
+            <li><i class="devicon-html5-plain colored me-2"></i>HTML</li>
+            <li><i class="devicon-css3-plain colored me-2"></i>CSS</li>
+            <li><i class="devicon-javascript-plain colored me-2"></i>JavaScript</li>
+            <!-- <li><i class="devicon-react-original colored me-2"></i>React</li> -->
+            <li id="img"><img class="devicon-img me-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="python">Python</li>
+            <li><i class="devicon-django-plain colored me-2"></i>Django</li>
+            <li><i class="devicon-mysql-plain colored me-2"></i>MySQL</li>
+          </ul>
+        </div>
+
+        <div class="divider-line mx-3 d-none d-md-block" data-aos="zoom-in" data-aos-delay="200"></div>
+
+        <div class="flex-fill tech-col" data-aos="fade-left" data-aos-delay="400">
+          <h4 class="text-center">Tools & Workflow</h4>
+          <p class="text-muted text-center small">What I use every day</p>
+          <ul class="list-unstyled tech-list">
+            <!-- <li><i class="devicon-git-plain colored me-2"></i>Git</li> -->
+            <li><i class="devicon-github-original colored me-2"></i>GitHub</li>
+            <li><i class="devicon-vscode-plain colored me-2"></i>VS Code</li>
+            <!-- <li><i class="devicon-linux-plain colored me-2"></i>Linux</li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-5">
+    <div class="container">
+      <div class="section-header text-center mb-4">
+        <h2>Projects</h2>
+        <p class="text-muted">Selected projects and case-studies</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card project-card h-100" data-bs-toggle="modal" data-bs-target="#modalPortfolio" tabindex="0">
+            <img src="images/image.png" class="card-img-top" alt="GokiFolio">
+            <div class="card-body">
+              <h5 class="card-title">GokiFolio</h5>
+              <p class="card-text text-muted small">A personal portfolio website showcasing projects and professional growth... <span class="text-primary">read more</span></p>
+              <small class="text-muted"><strong>Tech:</strong> HTML, CSS, JS, Bootstrap</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card project-card h-100" data-bs-toggle="modal" data-bs-target="#modalEcommerce" tabindex="0">
+            <img src="images/ignite.png" class="card-img-top" alt="Task management">
+            <div class="card-body">
+              <h5 class="card-title">Task Management System</h5>
+              <p class="card-text text-muted small">Organize and track tasks with a web app... <span class="text-primary">read more</span></p>
+              <small class="text-muted"><strong>Tech:</strong> Flask, MySQL, Bootstrap</small>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="modal fade" id="modalPortfolio" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h5 class="modal-title">GokiFolio</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <img src="images/image.png" class="img-fluid rounded mb-3" alt="">
+        <p>
+          <strong>GokiFolio</strong> is a responsive portfolio website built to highlight my journey as a Full Stack Developer.
+          It features interactive project cards, clean design, and a responsive layout optimized for all devices.
+        </p>
+        <ul>
+          <li><strong>Interactive Project Cards:</strong> Images, descriptions, and links to live demos and source code.</li>
+          <li><strong>Modern, Clean Design:</strong> Minimalist aesthetic with smooth animations for enhanced UX.</li>
+          <li><strong>Dynamic Content Sections:</strong> Skills, experience, and projects structured for easy navigation.</li>
+          <li><strong>Responsive Layout:</strong> Optimized for mobile, tablet, and desktop browsing.</li>
+        </ul>
+        <p><strong>Future Enhancements:</strong> GitHub integration for automated project updates, dark mode, blog section, and additional interactive features.</p>
+        <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript,Booststrap</p>
+        <div class="modal-footer">
+          <a href="#" class="btn btn-primary">View Code</a>
+          <a href="#" class="btn btn-outline-primary">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="modal fade" id="modalEcommerce" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h5 class="modal-title">Task Management System</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <img src="images/ignite.png" class="img-fluid rounded mb-3" alt="">
+        <p>
+          A full-featured Task Management System built with <strong>Flask</strong> and <strong>Bootstrap</strong>. 
+          Users can register, log in, complete tasks, and upload files. 
+          Each task is timed, and grades (Ontime, Delay, Overdelay) are calculated and stored in the database.
+        </p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>User registration and secure login</li>
+          <li>Complete, and submit tasks with file uploads</li>
+          <li>Automatic timer-based grading for each task</li>
+          <li>User credentials and overall grades stored in Flask/MySQL database</li>
+          <li>Local file preview and storage before submission</li>
+        </ul>
+        <p><strong>Future Enhancements:</strong> Adding tasks form another source
+        <p><strong>Tech Stack:</strong> HTML, CSS, JS, Bootstrap,Flask,Mysql</p>
+        <div class="modal-footer">
+          <a href="#" class="btn btn-primary">View Code</a>
+          <a href="#" class="btn btn-outline-primary">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <section class="timeline-section py-5" id="education">
+  <div class="container">
+          <div class="section-header text-center mb-4">
+
+    <h2>My Learning Journey</h2>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item left"data-aos="fade-right" data-aos-delay="0">
+        <div class="timeline-content">
+          <h4 class="text-primary fw-bold">Full Stack Development Course (Ongoing)</h4>
+          <p class="text-muted mb-1"><strong>Institute:</strong> Elysium Academy, Madurai</p>
+          <p class="text-muted mb-2"><strong>Year:</strong> June 2025 – Present</p>
+          <p class="text-muted">
+            Currently expanding my technical expertise through an intensive Full Stack program,
+            building strong foundations in both front-end and back-end development.
+          </p>
+          <div class="project-boxes">
+            <div class="project-box">Task Management System</div>
+            <div class="project-box">Portfolio Website</div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="timeline-item right" data-aos="fade-left" data-aos-delay="150">
+        <div class="timeline-content">
+          <h4 class="text-primary fw-bold">B.Sc. Computer Science</h4>
+          <p class="text-muted mb-1"><strong>College:</strong> American College, Madurai</p>
+          <p class="text-muted mb-2"><strong>Year:</strong> 2018 – 2021</p>
+          <p class="text-muted">
+            Built a strong academic foundation in programming, databases, and computer fundamentals.
+            This degree strengthened my logical thinking and problem-solving approach.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item left"data-aos="fade-right" data-aos-delay="300">
+        <div class="timeline-content">
+          <h4 class="text-primary fw-bold">12th Grade</h4>
+          <p class="text-muted mb-1"><strong>School:</strong> St. Joseph’s Girls Higher Secondary School, Madurai</p>
+          <p class="text-muted mb-2"><strong>Year:</strong> 2017 – 2018</p>
+          <p class="text-muted">
+            Specialized in Computer Science and Mathematics — this is where my passion for technology began.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item right" data-aos="fade-left" data-aos-delay="450">
+        <div class="timeline-content">
+          <h4 class="text-primary fw-bold">10th Grade</h4>
+          <p class="text-muted mb-1"><strong>School:</strong> Fuscos Matriculation School, Madurai</p>
+          <p class="text-muted mb-2"><strong>Year:</strong> 2015 – 2016</p>
+          <p class="text-muted">
+            Developed curiosity for learning and built strong fundamentals that shaped my academic journey.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white">
+    <div class="container d-flex justify-content-between">
+      <div>&copy; 2025 Gokifolio. All Rights Reserved.</div>
+      <ul class="list-unstyled d-flex gap-3 mb-0">
+        <li><a class="text-white" href="#">Home</a></li>
+        <li><a class="text-white" href="#services">About</a></li>
+        <li><a class="text-white" href="#projects">Projects</a></li>
+
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('show');
+      });
+    }, { threshold: 0.2 });
+    document.querySelectorAll('.fade-in, .fade-up, .service-box, .project-card').forEach(el => observer.observe(el));
+
+    document.addEventListener('mousedown', () => document.body.classList.add('using-mouse'));
+    document.addEventListener('keydown', () => document.body.classList.remove('using-mouse'));
+  </script>
+    <!-- AOS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+  AOS.init({
+    duration: 900,      
+    easing: 'ease-in-out',
+    once: true         
+  });
+</script>
+
+</body>
+</html>
